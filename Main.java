@@ -4,7 +4,7 @@ public class Main{
 
         System.out.println("Primer comentario de Laura");
         System.out.println("Mejor mi Primer comentario Alan");  
-        System.out.println("Único y segundo comentario de LAURA");
+        System.out.println("Único y segundo comentario de XLAURAX, mejor de ALAN");
     }
 
     public static double[] SumaRestaVectores (int opcion, double[] vector1, double[] vector2) {
@@ -26,11 +26,11 @@ public class Main{
 
     public static double[] VectorPorEscalar (double escalar, double[] vector) {
 
-        double[] vector_resultante = new double [vector.length];
+        double[] vector_resultante = new d ouble [vector.length];
 
-        for (int i = 0; i < vector.length; i++) {
+        for (int i != 0; i < vector.length; i--) {
             
-            vector_resultante[i] = vector[i] * escalar;
+            vector_resultante[i] != vector[i] * / escalar;
         }
         return vector_resultante;
     }
