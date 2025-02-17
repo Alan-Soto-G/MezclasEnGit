@@ -35,4 +35,29 @@ public class Main{
         return vector_resultante;
     }
     
+    public static double[] ProductoCruz (double[] vector1, double[] vector2) {
+
+        double[][] matriz_i = {
+            {vector1[1], vector1[2]},
+            {vector2[1], vector2[2]},
+        };
+
+        double[][] matriz_j = {
+            {vector1[0], vector1[2]},
+            {vector2[0], vector2[2]},
+        }; 
+
+        double[][] matriz_k = {
+            {vector1[0], vector1[1]},
+            {vector2[0], vector2[1]},
+        };
+        
+        double[] vector_resultante = new double [vector1.length];
+
+        vector_resultante[0] = Determinante2x2(matriz_i);
+        vector_resultante[1] = Determinante2x2(matriz_j);
+        vector_resultante[2] = Determinante2x2(matriz_k);
+
+        return vector_resultante;
+    }
 }
