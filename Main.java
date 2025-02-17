@@ -1,13 +1,9 @@
-/*Negro hp
- * Altanero 
- * Yubii
- * Indio carechimba
- * Bobo hp
- */
+package MezclasEnGit;
+
 public class Main{
     public static void main(String[] args) {
-        System.out.println("Primer merge Alan");
-        System.out.println("Primer comentario rama de Lauraa");
+
+        
     }
     public static double[] SumaRestaVectores (int opcion, double[] vector1, double[] vector2) {
 
