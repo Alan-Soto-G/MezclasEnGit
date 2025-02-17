@@ -35,4 +35,14 @@ public class Main{
         return vector_resultante;
     }
     
+    public static double ProductoPunto (double[] vector1, double[] vector2) {
+
+        double resultante = 0.0d;
+
+        for (int i = 0; i < vector1.length; i++) {
+            resultante += vector1[i] * vector2[i];
+        }
+
+        return resultante;
+    }
 }
