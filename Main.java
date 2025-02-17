@@ -4,7 +4,7 @@ public class Main{
 
         System.out.println("Primer comentario de Laura");
         System.out.println("Mejor mi Primer comentario Alan");  
-        System.out.println("Único y segundo comentario de LAURA")
+        System.out.println("Único y segundo comentario de LAURA");
     }
 
     public static double[] SumaRestaVectores (int opcion, double[] vector1, double[] vector2) {
