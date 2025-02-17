@@ -28,13 +28,34 @@ public class Main{
 
         double[] vector_resultante = new double [vector.length];
 
-        for (int i = 0; i < vector.length; i++) {
+        for (int i = 0; i < vector.length;    i++) {
             
-            vector_resultante[i] = vector[i] *  escalar;
+            vector_resultante[i] = vector[i]    *   escalar;
         }
         return vector_resultante;
     }
     
+    public static double ProductoPunto (double[] vector1, double[] vector2) {
+
+        double resultante = 0.0d;
+
+        for (int i = 0; i < vector1.length; i++) {
+            resultante += vector1[i] * vector2[i];
+        }
+
+        public static double AnguloEntreDosVectores (double[] vector1, double[] vector2) {
+
+            double producto_punto = ProductoPunto(vector1, vector2);
+            double norma_vector1 = NormaOMagnitud(vector1);
+            double norma_vector2 = NormaOMagnitud(vector2);
+            double angulo = 0.0d;
+            
+            angulo = Math.toDegrees(Math.acos(producto_punto / (norma_vector1 * norma_vector2)));
+            return angulo;
+        }
+
+        return resultante;
+
     public static double[] ProductoCruz (double[] vector1, double[] vector2) {
 
         double[][] matriz_i = {
