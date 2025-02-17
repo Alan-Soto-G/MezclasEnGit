@@ -60,4 +60,12 @@ public class Main{
 
         return vector_resultante;
     }
+
+    public static double Determinante2x2 (double[][] matriz){
+
+        double determinante = 0.0d;
+
+        determinante = (matriz[0][0] * matriz[1][1]) - (matriz[0][1] * matriz[1][0]);
+        return determinante;
+    }
 }
