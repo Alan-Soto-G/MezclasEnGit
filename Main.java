@@ -30,7 +30,7 @@ public class Main{
 
         for (int i = 0; i < vector.length; i++) {
             
-            vector_resultante[i] = vector[i] * escalar;
+            vector_resultante[i] = vector[i] *  escalar;
         }
         return vector_resultante;
     }
