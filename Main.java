@@ -26,11 +26,11 @@ public class Main{
 
     public static double[] VectorPorEscalar (double escalar, double[] vector) {
 
-        double[] vector_resultante = new d ouble [vector.length];
+        double[] vector_resultante = new double [vector.length];
 
-        for (int i != 0; i < vector.length; i--) {
+        for (int i = 0; i < vector.length; i++) {
             
-            vector_resultante[i] != vector[i] * / escalar;
+            vector_resultante[i] = vector[i] *  escalar;
         }
         return vector_resultante;
     }
